@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Gumball";
+  font-style: normal;
+  font-weight: 700; /* This is valid for variable fonts, otherwise use a single weight */
+  font-display: swap;
+  src: url("/src/assets/fonts/Gumball.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Rock Salt";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/src/assets/fonts/RockSalt-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GochiHand";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/src/assets/fonts/GochiHand-Regular.ttf) format("truetype");
+}
+
+.font-gumball {
+  font-family: "Gumball", sans-serif;
+}
+
+.font-children {
+  font-family: "GochiHand", "Rock Salt", sans-serif;
+}

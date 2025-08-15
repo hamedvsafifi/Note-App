@@ -1,0 +1,30 @@
+.bg-dynamic {
+  margin: 0;
+  height: 100vh;
+  --gradient-angle: 90deg;
+
+  background: linear-gradient(
+    var(--gradient-angle),
+    #a1e63c,
+    #e63c9e,
+    #3ce6e4,
+    #a33ce6,
+    #e6b53c,
+    #3ce65c,
+    #5c3ce6
+  );
+  background-size: 1400% 1400%;
+  animation: rainbow 60s ease infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
